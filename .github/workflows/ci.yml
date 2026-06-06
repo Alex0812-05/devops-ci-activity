@@ -4,11 +4,11 @@ on:
   push:
     branches: [ main, master ]
   pull_request:
-    branches: [ main, master ]
+    brancruns-on: ubuntu-latesthes: [ main, master ]
 
 jobs:
   test:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
 
     steps:
     - name: Checkout do código
